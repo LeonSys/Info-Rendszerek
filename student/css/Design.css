@@ -1,0 +1,43 @@
+
+
+body {
+    background-image: url("../images/background.jpg");
+    background-color: #cccccc;
+}
+
+ .manufacturers-table-wrapper {
+     width: 100%;
+     margin-bottom: 10px;
+ }
+
+ #add-cars-form-wrapper, #manufacturers-form-wrapper {
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+
+ .manufacturers-table-wrapper {
+     width: 100%;
+     margin-bottom: 10px;
+ }
+
+ .manufacturers-table {
+     padding-left: 400px;
+     padding-right: 400px;
+ }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    border-color: #4e54c8;
+    border-width: thick;
+}

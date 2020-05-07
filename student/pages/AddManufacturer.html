@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<body class="MainPage_Style" >
+<head>
+    <script src="../jquery/jquery-3.4.1.min.js"></script>
+    <script src="../js/Cookie.js.js"></script>
+
+    <script src="../js/AddManufacturer.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/Design.css"/>
+</head>
+
+<h1 align="center">Add Manufacturer</h1>
+
+<div id="manufacturers-form-wrapper">
+    <form id="add-manufacturers-form" class="add-manufacturers-form">
+<table>
+    <tr>
+        <td> <label for="name">Name: </label> </td>
+        <td> <input type="text" id="name" name="name" placeholder="Name.."> </td>
+    </tr>
+    <tr>
+    <td> <label for="country">Country: </label></td>
+    <td> <input type="text" id="country" name="country" placeholder="Country.."> </td>
+    </tr>
+
+    <tr>
+    <td> <label for="founded">Founded: </label></td>
+    <td><input type="text" id="founded" name="founded" placeholder="Founded"><td>
+    </tr>
+
+</table>
+        <input type="submit" value="Submit" onclick="addManufacturers()">
+    </form>
+
+</div>
+<button onclick="fillManufacturerTable()">LIST</button>
+
+<div id="manufacturers-table-wrapper" class="manufacturers-table-wrapper">
+</div>
+
+</body>
+</html>

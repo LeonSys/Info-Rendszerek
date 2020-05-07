@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+
+<head>
+
+    <script src="../js/AddCar.js"></script>
+    <script src="../js/Table.js"></script>
+
+    <script src="../jquery/jquery-3.4.1.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="../css/Design.css"/>
+</head>
+
+<h1 align="center">Add Car</h1>
+
+<div id="add-cars-form-wrapper">
+    <form id="add-cars-form" class="add-cars-form">
+        <table>
+            <tr>
+                <td><label for="name">Name: </label></td>
+                <td><input type="text" name="name"/></td>
+            </tr>
+            <tr>
+                <td><label for="consumption">Consumption: </label></td>
+                <td><input type="text" name="consumption"/></td>
+            </tr>
+            <tr>
+                <td><label for="color">Color: </label></td>
+                <td><input type="text" name="color"/></td>
+            </tr>
+            <tr>
+                <td><label for="manufacturer">Manufacturer: </label></td>
+                <td><input type="text" name="manufacturer"/></td>
+            </tr>
+            <tr>
+                <td><label for="year">Year: </label></td>
+                <td><input type="text" name="year"/></td>
+            </tr>
+            <tr>
+                <td> <label for="available">Available: </label></td>
+                <td><input type="text" name="available"/></td>
+            </tr>
+            <tr>
+                <td><label for="horsepower">Horsepower: </label></td>
+                <td><input type="text" name="horsepower"/></td>
+            </tr>
+        </table>
+    </form>
+</div>
+<input align="center" type="submit" value="Submit" onclick="addCar()">
+
+<button onclick="fillCarTable()">LIST</button>
+
+<div id="cars-table-wrapper" class="cars-table-wrapper">
+</div>
+</html>
+
+
